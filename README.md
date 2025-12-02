@@ -85,6 +85,11 @@ This repository demonstrates:
 
 It complements the main hypoxia prediction project by focusing exclusively on model interpretation rather than classification performance.
 
+### Interpretation Summary
+SHAP analysis confirmed that **PI_UA**, **PI_MCA**, and their ratio (PI_MCA_UA)** have the largest influence on model predictions. Higher PI_UA values strongly pushed cases toward the IUGR class, while higher PI_MCA pulled predictions toward Normal.  
+The waterfall plots also showed that individual predictions were driven by intuitive Doppler patterns, demonstrating that the logistic model behaves in a physiologically consistent and transparent way.
+
+
 
 
 
